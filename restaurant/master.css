@@ -1,0 +1,394 @@
+body
+{
+  background-color: #1f181a;
+  background-image: url("photos/thirdbg.jpg");
+  background-repeat: no-repeat;
+  background-size: 1350px 657px;
+  background-blend-mode:soft-light;
+  background-attachment:scroll;
+}
+@font-face {
+  font-family: Voga;
+  src: url(fonts/Voga-Medium.otf);
+}
+.header
+{
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.dropdown
+{
+  display:none;
+  width: 180px;
+  margin-left: 470px;
+  margin-top: 35px;
+  background-color: #f9f9f9;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px grey;
+  position: relative;
+}
+.dropcontent
+{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+
+  font-family: Voga;
+  font-size: 14pt;
+  letter-spacing: 3px;
+  padding: 12px 16px;
+}
+.fordrop:hover .dropdown
+{
+  display: block;
+  position: absolute;
+}
+
+.logo
+{
+  color: white;
+  font-size: 30pt;
+  padding-left: 60px;
+  text-decoration: none;
+  font-size: 30pt;
+  font-family: Voga;
+  letter-spacing: 4px;
+}
+
+.arrowup{
+   width: 60px;
+   height: 60px;
+   position: fixed;
+   margin-left: 1270px;
+   margin-top: 550px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 75px;
+  padding: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 18pt;
+  font-family: Voga;
+  letter-spacing: 4px;
+}
+
+li:hover
+{
+  transform: scale(1.25, 1.25);
+  text-decoration:underline;
+  text-decoration-style: dotted;
+}
+
+h1.index_quote
+{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40pt;
+  font-family: Voga;
+  letter-spacing: 30px;
+  padding-top: 200px;
+}
+.menu
+{
+  width: 1350px;
+  height: 2300px;
+  margin-top: 552px;
+  background-color: #070405;
+  margin-left: -10px;
+}
+
+#menu{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40pt;
+  font-family: Voga;
+  letter-spacing: 30px;
+  padding-top: 50px;
+}
+
+.top_left_box
+{
+  float: left;
+  margin-left: 90px;
+  margin-top: 50px;
+
+}
+
+.top_right_box
+{
+  float: right;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+
+table
+{
+  width: 500px;
+  border-collapse: collapse;
+  border: 2px dashed #755b62;
+}
+
+td, th{
+  color: white;
+  font-size: 14pt;
+  font-family: Voga;
+  padding: 10px 10px;
+  letter-spacing: 4px;
+  text-align: center;
+  border: 1px dashed #755b62;
+}
+
+td{
+  text-align: left;
+}
+
+tr:hover{
+  border: 1px solid white;
+}
+
+.p_in_menu{
+  color: white;
+  font-size: 20pt;
+  font-family: Voga;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+
+
+.our_history
+{
+  width: 1350px;
+  height: 700px;
+  margin-left: -10px;
+  background-image: url("photos/my_history.jpg");
+  background-repeat: no-repeat;
+  background-size: 1350px 700px;
+  background-blend-mode:soft-light;
+  background-attachment:scroll;
+  margin-top: -36px;
+}
+
+#our_story
+{
+  color: white;
+  text-decoration: none;
+  padding-left: 240px;
+  padding-top: 70px;
+  font-size: 40pt;
+  font-family: Voga;
+  letter-spacing: 30px;
+}
+.fortext
+{
+  width:50%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.story
+{
+  color: white;
+  font-size: 12pt;
+  font-family: Voga;
+  letter-spacing: 3px;
+  text-align:center;
+  line-height: 1.5;
+}
+
+.events{
+  width: 1350px;
+  height: 700px;
+  margin-left: -10px;
+  background-image: url("photos/my_events2.jpg");
+  background-repeat: no-repeat;
+  background-size: 1350px 700px;
+  background-blend-mode:soft-light;
+  background-attachment:scroll;
+  margin-top: -35px;
+}
+
+#events{
+  color: white;
+  text-decoration: none;
+  padding-left: 800px;
+  padding-top: 100px;
+  font-size: 40pt;
+  font-family: Voga;
+  letter-spacing: 30px;
+}
+
+.forevent
+{
+  width:50%;
+  margin-left: 600px;
+  margin-top: 150px;
+}
+
+a.navigation
+{
+  color: white;
+  font-size: 16pt;
+  font-style: bold;
+  font-family: Voga;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  letter-spacing: 3px;
+}
+
+.photogalery
+{
+  width: 1350px;
+  height: 1000px;
+  margin-left: -10px;
+  background-color: black;
+  margin-top: -36px;
+}
+#photogalery
+{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 40pt;
+  font-family: Voga;
+  letter-spacing: 30px;
+}
+
+#gallery{
+  margin-top: 100px;
+}
+img{
+  image-rendering: webkit-optimize-contrast;
+}
+
+.reservation
+{
+  width: 1350px;
+  height: 1000px;
+  margin-left: -10px;
+  margin-top: -36px;
+  background-image: url("photos/registr_bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: 1350px 1000px;
+  background-blend-mode:soft-light;
+  background-attachment:scroll;
+}
+
+#reservation
+{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 40pt;
+  font-family: Voga;
+  letter-spacing: 30px;
+}
+
+.reservation_form
+{
+  padding-left: 95px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pole{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #c6c4c3;
+}
+form
+{
+  color: white;
+  font-size: 12pt;
+  font-family: Voga;
+  letter-spacing: 3px;
+}
+
+.inblock_reserv
+{
+    width: 500px;
+    margin-left: 420px;
+    margin-top: 80px;
+    background-color: #1f181a;
+    border: 5px dashed #755b62;
+    border-radius: 10px;
+  }
+.for_submit
+{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #c6c4c3;
+}
+.for_submit:hover
+{
+  background-color: #5ef762;
+}
+.for_submit:active
+{
+  background-color: #3fa521;
+}
+
+.footer
+{
+  width: 1350px;
+  height: 650px;
+  margin-left: -10px;
+  margin-top: -36px;
+  background-color: black;
+}
+#contacts{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 40pt;
+  font-family: Voga;
+  letter-spacing: 30px;
+}
+.underline
+{
+  margin-left: 470px;
+  margin-top: 100px;
+}
+.footer_text
+{
+  color: white;
+  font-size: 20pt;
+  font-family: Voga;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.footdiv
+{
+  margin-top: 120px;
+}
+.bottom
+{
+  color: white;
+  text-decoration: none;
+  padding-right: 100px;
+}
+.bottom:first-child
+{
+  padding-left: 200px;
+}
